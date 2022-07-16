@@ -13,3 +13,13 @@ If this worked then you should see `mysql>` in your terminal. You may now enter 
 USE <db_name>
 ```
 
+## Source a SQL file 
+
+1. Check if you are in the right directory and check for the sql file
+``` ls ```
+
+2. Locate the right database
+``` USE <db_name>```
+
+3. Make sure to save the sql file first before running any command. Then type in ```source <sql_file_name>``` and run
+
