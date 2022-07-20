@@ -15,7 +15,22 @@
 
 
 ### Tables!
-**A database is a bunch of tables**
+A database is a bunch of tables
 
 * Data types: When we create a table, we need to specify the data types. Each column needs to have identical data type
-* 
+* E.G., ```INT``` (numeric), ```varchar``` (a variable-length string), e.g., ```varchar(100)``` means a string with no more than 100 characters.
+
+**CODE**
+* Create tables and specify data types
+
+``` 
+CREATE TABLE <tablename> (
+    column_name data_type,
+    column_name data_type
+    );
+```
+* List tables: ``` SHOW TABLES;```
+* Show the contents of the table: ```SHOW COLUMNS FROM <tablename>;``` OR use describe ```DESC <tablename>``` 
+* Deleting tables: ```DROP TABLE <tablename>;```
+
+
