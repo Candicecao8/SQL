@@ -4,6 +4,9 @@
 
 
 ### Databases!
+
+**CODE**
+
 * Start the CLI: ```mysql-ctl cli;```
 * List available databases: ```show databases;```
 * Create databases: ```CREATE DATABASE <name>;```
