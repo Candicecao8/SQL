@@ -36,5 +36,39 @@ VALUES (<value>,<value>),
   ```
  * Combine ```NOT NULL``` and ```DEFAULT <default_value>```
  
- ##
+ ## Primary Key:
+ A unique identifier.
+ 
+* Set primary key: Add ``` PRIMARY KEY (<key>)``` when ```CREATE TABLE```. E.g.,
+  ```
+  CREATE TABLE unique_cats(
+      cat_id INT NOT NULL,
+      name VARCHAR(50),
+      age INT,
+      PRIMARY KEY(cat_id)
+      );
+  ```
+  * Adding in ```AUTO_INCREMENT```: No longer have to specify the primary key.
+    ```
+    CREATE TABLE unique_cats2 (
+    cat_id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100),
+    age INT,
+    PRIMARY KEY (cat_id)
+    );
+    ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
